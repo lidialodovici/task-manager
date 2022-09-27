@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #82589f;
+  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  text-transform: lowercase;
+  font-size: 20px;
+  font-family: 'Encode Sans', sans-serif;
+}
+.container {
+  background: #fff;
+  max-width: 700px;
+  width: 100%;
+  padding: 20px;
+  /* box-sizing: border-box; */
+  margin: 100px auto;
+  /* border-radius: 30px; */
+  box-shadow: 11px 11px 7px rgb(0 0 0 / 30%);
+}
+
+#new-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#new-task input {
+  padding: 10px;
+  width: 70%;
+  font-size: 16px;
+  color: #353b48;
+}
+
+#btnAdd {
+  width: 100px;
+  height: 40px;
+  font-family: 'Poppins', sans-serif;
+}
